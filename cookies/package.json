@@ -1,0 +1,26 @@
+{
+  "name": "cookies",
+  "version": "1.0.0",
+  "description": "cookies practice",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:markscarna/usaf-cookies-challenge.git"
+  },
+  "author": "Mark Scarna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markscarna/cookies-practice/issues"
+  },
+  "homepage": "https://github.com/markscarna/cookies-practice#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
